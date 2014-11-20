@@ -1,0 +1,16 @@
+function res = create_posotions(m_number, radius)
+    %takes in the number of masses, and the radius of the ringworld,
+    %returning a list of "m_number" evenly spaced position vectors around a circle
+    %with the given redius. m_number should be at leat two. If it's one, 
+    %that's just craziness.
+    
+    theta = 2*pi/m_number; %The angle between any two masses
+    positions = []; %The empty list of positions. I create it for good luck, mostly.
+    
+    for i = 1:m_number
+        angle = (i-1)*theta;
+        x = 
+        
+    end
+    res = 5;
+end

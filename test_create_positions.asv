@@ -1,0 +1,12 @@
+function test_create_positions()
+    %Bui
+    m_number = 4;
+    radius = 5;
+    
+    positions = create_positions(m_number, radius);
+    
+    clf
+    hold on
+    plot(positions(1,:), positions(2,:))
+
+end
